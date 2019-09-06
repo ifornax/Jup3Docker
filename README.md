@@ -10,6 +10,7 @@ To run the docker:
 Go into the Jup3Docker folder and then at the prompt:
 
 $ DOCKER_NAME="nadeemjup3"; docker build -t $DOCKER_NAME . # This will build the container with the name nadeemjup3
+
 $ source python3_docker_no.sh
 
 An alias has been created (Py3_Nbook) that will start the Jupyter docker. Note that inside the bash file, we have hardcoded (for now) the volumes that will need to be mounted. These can be changed as per the user. We will put a much better way in the future.
